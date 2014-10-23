@@ -1,0 +1,37 @@
+{
+  "name": "001-private-todos",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "body-parser": "^1.9.0",
+    "chalk": "^0.5.1",
+    "coffee-script": "^1.8.0",
+    "coffeeify": "^0.7.0",
+    "compression": "^1.2.0",
+    "connect-mongo": "^0.4.1",
+    "cookie-parser": "^1.3.3",
+    "d-bootstrap": "^0.1.1",
+    "derby": "^0.6.0-alpha25",
+    "derby-login": "^0.3.0",
+    "express": "^4.9.8",
+    "express-session": "^1.9.0",
+    "livedb-mongo": "^0.4.1",
+    "racer-bundle": "^0.1.1",
+    "racer-highway": "^1.4.3",
+    "serve-favicon": "^2.1.6",
+    "serve-static": "^1.7.0"
+  },
+  "author": {
+    "name": "Alexey Galkin",
+    "email": "agalkin@whitebox.ru"
+  },
+  "license": "",
+  "readme": "001-private-todos\n",
+  "readmeFilename": "README.md"
+}

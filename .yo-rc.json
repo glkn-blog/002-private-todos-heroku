@@ -1,0 +1,9 @@
+{
+  "generator-derby": {
+    "project": "001 private todos",
+    "apps": [
+      "private-todos"
+    ],
+    "coffee": false
+  }
+}
