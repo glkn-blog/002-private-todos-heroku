@@ -5,6 +5,9 @@ var http  = require('http');
 var chalk = require('chalk');
 
 var publicDir = process.cwd() + '/public';
+var shareAccess = require('./server/shareAccess');
+
+derby.use(shareAccess);
 
 derby.run(function(){
   require('coffee-script/register');
