@@ -1,7 +1,7 @@
 {
   "name": "001-private-todos",
-  "version": "0.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "Derbyjs private todos implementation",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
@@ -30,7 +30,11 @@
   },
   "author": {
     "name": "Alexey Galkin",
-    "email": "agalkin@whitebox.ru"
+    "email": "aagalkin@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/glkn-blog/001-private-todos.git"
   },
   "license": "",
   "readme": "001-private-todos\n",
