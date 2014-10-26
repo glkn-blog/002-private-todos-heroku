@@ -12,7 +12,8 @@ derby.run(function(){
   require('./server/config');
 
   var apps = [
-    require('./apps/private-todos')
+    require('./apps/private-todos'),
+    require('./apps/login')
     // <end of app list> - don't remove this comment
   ];
 
