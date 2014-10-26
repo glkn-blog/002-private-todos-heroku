@@ -1,9 +1,13 @@
 <Body:>
   <section id="todoapp">
+    <view name="userInfo"/>
     <view name="header"/>
     <view name="main"/>
     <view name="footer"/>
   </section>
+
+<userInfo:>
+  <div id="userInfo">{{_session.user.email}} (<a href="/auth/logout">logout</a>)</div>
 
 <header:>
   <header id="header">

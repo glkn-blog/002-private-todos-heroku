@@ -554,3 +554,8 @@ hr {
         margin: 130px auto 40px auto;
     }
 }
+#userInfo {
+    position: fixed;
+    top:10px;
+    right:20px;
+}
