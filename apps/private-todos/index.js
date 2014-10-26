@@ -52,23 +52,24 @@ app.get('/completed', getPage('completed'));
 
 function getPage(filter) {
     return function(page, model) {
-        model.subscribe('todos', function() {
+        var todos = model.query('todos', {
+            ownerId: model.get('_session.userId')
+        });
+        model.subscribe(todos, function() {
             model.filter('todos', filter).ref('_page.todos');
             model.start('_page.counters', 'todos', 'counters');
             page.render();
         });
-    }
+    };
 }
 
 app.proto.addTodo = function(newTodo) {
-
     if (!newTodo) return;
-
     this.model.add('todos', {
         text: newTodo,
-        completed: false
+        completed: false,
+        ownerId: this.model.get('_session.userId')
     });
-
     this.model.set('_page.newTodo', '');
 };
 
