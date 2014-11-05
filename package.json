@@ -1,7 +1,7 @@
 {
-  "name": "001-private-todos",
+  "name": "002-private-todos-heroku",
   "version": "0.1.0",
-  "description": "Derbyjs private todos implementation",
+  "description": "Derbyjs private todos implementation for heroku",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
@@ -34,7 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/glkn-blog/001-private-todos.git"
+    "url": "git://github.com/glkn-blog/002-private-todos-heroku.git"
   },
   "license": "",
   "readme": "001-private-todos\n",
